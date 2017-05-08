@@ -1,0 +1,7 @@
+package br.com.fiap.repository;
+
+public class FuncionarioRepository {
+
+	private static final String URL = "http://localhost:8080"
+			+ "/Exercicio5/rest/atleta/";
+}

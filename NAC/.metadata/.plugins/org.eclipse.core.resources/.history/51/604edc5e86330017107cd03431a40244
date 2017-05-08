@@ -1,0 +1,29 @@
+package br.com.fiap.resource;
+
+import javax.ws.rs.Path;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.UriInfo;
+
+import br.com.fiap.bo.FuncionarioBO;
+import br.com.fiap.entity.Funcionario;
+import br.com.fiap.exception.DBException;
+
+@Path("/funcionario")
+public class FuncionarioResource {
+
+	private FuncionarioBO bo = new FuncionarioBO();
+	
+	public Response cadastrar(Funcionario funcionario, @Context UriInfo uriInfo) {
+		try {
+			bo.cadastrar(funcionario);
+		}
+		catch(DBException e) {
+			
+		}
+	}
+	
+	public Funcionario buscar(int codigo) {
+		
+	}
+}

@@ -1,0 +1,33 @@
+package br.com.fiap.teste;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+import javax.persistence.EntityManager;
+
+import br.com.fiap.dao.FuncionarioDAO;
+import br.com.fiap.dao.impl.FuncionarioDAOImpl;
+import br.com.fiap.entity.Funcionario;
+import br.com.fiap.factory.EntityManagerFactorySingleton;
+
+public class TesteCadastrar {
+
+	public static void main(String[] args) {
+
+		EntityManager em = EntityManagerFactorySingleton.getInstance().createEntityManager();
+		FuncionarioDAO dao = new FuncionarioDAOImpl(em);
+		Funcionario funcionario = new Funcionario("Joao", 226, new GregorianCalendar(2017, Calendar.MAY, 14));
+		
+		try {
+			dao.cadastrar(funcionario);
+			dao.salvar();
+			System.out.println("Cadastrado");
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		em.close();
+		System.exit(0);
+	}
+
+}

@@ -1,0 +1,91 @@
+package br.com.fiap.view;
+
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Text;
+import org.eclipse.swt.widgets.Button;
+
+public class Tela {
+
+	protected Shell shell;
+	private Text text;
+	private Text text_1;
+	private Text text_2;
+	private Text text_3;
+
+	/**
+	 * Launch the application.
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		try {
+			Tela window = new Tela();
+			window.open();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * Open the window.
+	 */
+	public void open() {
+		Display display = Display.getDefault();
+		createContents();
+		shell.open();
+		shell.layout();
+		while (!shell.isDisposed()) {
+			if (!display.readAndDispatch()) {
+				display.sleep();
+			}
+		}
+	}
+
+	/**
+	 * Create contents of the window.
+	 */
+	protected void createContents() {
+		shell = new Shell();
+		shell.setSize(450, 300);
+		shell.setText("SWT Application");
+		
+		Label lblNome = new Label(shell, SWT.NONE);
+		lblNome.setBounds(0, 10, 55, 15);
+		lblNome.setText("Nome");
+		
+		text = new Text(shell, SWT.BORDER);
+		text.setBounds(61, 10, 76, 21);
+		
+		Label lblSalario = new Label(shell, SWT.NONE);
+		lblSalario.setBounds(0, 48, 55, 15);
+		lblSalario.setText("Sal\u00E1rio");
+		
+		text_1 = new Text(shell, SWT.BORDER);
+		text_1.setBounds(61, 48, 76, 21);
+		
+		Label lblDataAdmissao = new Label(shell, SWT.NONE);
+		lblDataAdmissao.setBounds(0, 90, 55, 15);
+		lblDataAdmissao.setText("Data de admiss\u00E3o");
+		
+		text_2 = new Text(shell, SWT.BORDER);
+		text_2.setBounds(61, 84, 76, 21);
+		
+		Button btnCadastrar = new Button(shell, SWT.NONE);
+		btnCadastrar.setBounds(31, 131, 75, 25);
+		btnCadastrar.setText("Cadastrar");
+		
+		Label lblCodigo = new Label(shell, SWT.NONE);
+		lblCodigo.setBounds(255, 10, 55, 15);
+		lblCodigo.setText("C\u00F3digo");
+		
+		text_3 = new Text(shell, SWT.BORDER);
+		text_3.setBounds(302, 10, 76, 21);
+		
+		Button btnBuscar = new Button(shell, SWT.NONE);
+		btnBuscar.setBounds(274, 48, 75, 25);
+		btnBuscar.setText("Buscar");
+
+	}
+}

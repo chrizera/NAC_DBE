@@ -1,0 +1,19 @@
+package br.com.fiap.teste;
+
+import javax.persistence.EntityManager;
+
+import br.com.fiap.dao.FuncionarioDAO;
+import br.com.fiap.dao.impl.FuncionarioDAOImpl;
+import br.com.fiap.factory.EntityManagerFactorySingleton;
+
+public class TesteListar {
+
+	public static void main(String[] args) {
+
+		EntityManager em = EntityManagerFactorySingleton.getInstance().createEntityManager();
+		FuncionarioDAO dao = new FuncionarioDAOImpl(em);
+		
+		
+	}
+
+}

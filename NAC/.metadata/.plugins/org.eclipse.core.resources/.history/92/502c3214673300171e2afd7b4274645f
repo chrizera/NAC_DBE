@@ -1,0 +1,10 @@
+package br.com.fiap.bo;
+
+import javax.persistence.EntityManager;
+
+import br.com.fiap.factory.EntityManagerFactorySingleton;
+
+public class FuncionarioBO {
+
+	private EntityManager em = EntityManagerFactorySingleton.getInstance().createEntityManager();
+}

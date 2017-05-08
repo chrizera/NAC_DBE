@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.SequenceGenerator"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="javax.persistence.Temporal"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.impl.GenericDAOImpl"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="br.com.fiap.factory.EntityManagerFactorySingleton"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.FuncionarioDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.impl.FuncionarioDAOImpl"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Funcionario"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.Cadastrar"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.Funcionario"/>
+<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.Buscar"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.BuscarResponse"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.Listar"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.ListarResponse"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.ListResourceBundle"/>
+</qualifiedTypeNameHistroy>

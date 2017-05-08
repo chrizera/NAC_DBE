@@ -1,0 +1,21 @@
+package br.com.fiap.teste;
+
+import br.com.fiap.bo.FuncionarioBOStub;
+import br.com.fiap.bo.FuncionarioBOStub.Buscar;
+import br.com.fiap.bo.FuncionarioBOStub.BuscarResponse;
+import br.com.fiap.bo.FuncionarioBOStub.Funcionario;
+
+public class Teste2 {
+
+	public static void main(String[] args) throws Exception{
+		FuncionarioBOStub stub = new FuncionarioBOStub();
+
+		Buscar buscar = new Buscar();
+		buscar.setCodigo(1);
+		BuscarResponse response = stub.buscar(buscar);
+		Funcionario funcionarioBuscado = response.get_return();
+		System.out.println(funcionarioBuscado.getNome() + "\n" + funcionarioBuscado.getSalario());
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package br.com.fiap.teste;
+
+import br.com.fiap.bo.FuncionarioBOStub;
+
+public class Teste {
+
+	public static void main(String[] args) {
+
+		FuncionarioBOStub stub = new FuncionarioBOStub();
+	}
+
+}

@@ -1,0 +1,87 @@
+package br.com.fiap.view;
+
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Text;
+import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.events.SelectionAdapter;
+import org.eclipse.swt.events.SelectionEvent;
+
+public class Tela {
+
+	protected Shell shell;
+	private Text txtNome;
+	private Text txtSalario;
+	private Text txtDataDeAdmissao;
+
+	/**
+	 * Launch the application.
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		try {
+			Tela window = new Tela();
+			window.open();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * Open the window.
+	 */
+	public void open() {
+		Display display = Display.getDefault();
+		createContents();
+		shell.open();
+		shell.layout();
+		while (!shell.isDisposed()) {
+			if (!display.readAndDispatch()) {
+				display.sleep();
+			}
+		}
+	}
+
+	/**
+	 * Create contents of the window.
+	 */
+	protected void createContents() {
+		shell = new Shell();
+		shell.setSize(450, 300);
+		shell.setText("SWT Application");
+		
+		Label lblNome = new Label(shell, SWT.NONE);
+		lblNome.setBounds(10, 22, 55, 15);
+		lblNome.setText("Nome");
+		
+		Label lblSalario = new Label(shell, SWT.NONE);
+		lblSalario.setBounds(10, 75, 55, 15);
+		lblSalario.setText("Salario");
+		
+		Label lblDataDeAdmissao = new Label(shell, SWT.NONE);
+		lblDataDeAdmissao.setBounds(10, 144, 102, 15);
+		lblDataDeAdmissao.setText("Data de admissao");
+		
+		txtNome = new Text(shell, SWT.BORDER);
+		txtNome.setBounds(59, 22, 76, 21);
+		
+		txtSalario = new Text(shell, SWT.BORDER);
+		txtSalario.setBounds(59, 69, 76, 21);
+		
+		txtDataDeAdmissao = new Text(shell, SWT.BORDER);
+		txtDataDeAdmissao.setBounds(10, 171, 76, 21);
+		
+		Button btnCadastrar = new Button(shell, SWT.NONE);
+		btnCadastrar.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+			}
+		});
+		btnCadastrar.setBounds(37, 214, 75, 25);
+		btnCadastrar.setText("Cadastrar");
+
+	}
+
+}

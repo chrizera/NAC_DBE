@@ -1,0 +1,20 @@
+package br.com.fiap.teste;
+
+import java.util.Scanner;
+
+import br.com.fiap.bo.FuncionarioBOStub;
+
+public class Teste {
+
+	public static void main(String[] args) throws Exception {
+
+		FuncionarioBOStub stub = new FuncionarioBOStub();
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("1- Cadastrar\n2- Buscar\n3- Listar");
+		int numero = entrada.nextInt();
+		
+		entrada.close();
+	}
+
+}

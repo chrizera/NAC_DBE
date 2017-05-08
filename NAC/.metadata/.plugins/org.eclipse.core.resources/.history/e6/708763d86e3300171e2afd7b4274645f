@@ -1,0 +1,39 @@
+package br.com.fiap.teste;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.Scanner;
+
+import br.com.fiap.bo.FuncionarioBOStub;
+import br.com.fiap.bo.FuncionarioBOStub.Cadastrar;
+import br.com.fiap.bo.FuncionarioBOStub.Funcionario;
+
+public class Teste {
+
+	public static void main(String[] args) throws Exception {
+
+		FuncionarioBOStub stub = new FuncionarioBOStub();
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("1- Cadastrar\n2- Buscar\n3- Listar");
+		int numero = entrada.nextInt();
+		
+		switch (numero) {
+			case 1:
+				Funcionario funcionario = new Funcionario();
+				funcionario.setDataAdmissao(new GregorianCalendar(2017, Calendar.MAY, 14));
+				funcionario.setNome("Roberto");
+				funcionario.setSalario(1233);
+				Cadastrar cadastrar = new Cadastrar();
+				cadastrar.setFuncionario(funcionario);
+				stub.cadastrar(cadastrar);
+				System.out.println("Cadastro efetuado");
+		
+			default:
+				System.out.println("Erro");
+		}
+		
+		entrada.close();
+	}
+
+}
