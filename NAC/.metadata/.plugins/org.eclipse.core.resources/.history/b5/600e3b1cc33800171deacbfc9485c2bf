@@ -40,7 +40,7 @@
 			#{funcionario.dataAdmissao}
 		</h:column>
 	</h:dataTable>
-	</div>
+</div>
 </div>
 </body> 
 </html>

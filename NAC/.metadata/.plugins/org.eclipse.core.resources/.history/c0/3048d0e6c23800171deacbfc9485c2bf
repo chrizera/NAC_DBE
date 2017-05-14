@@ -24,23 +24,6 @@
 				action="#{funcionarioBean.buscar(codigo)}" value="Buscar" />
 		</div>
 	</h:form>
-	<div class="container">
-	<h1>Funcionario buscado</h1>
-	<h:dataTable styleClass="table table-hover" var="funcionario" value="#{funcionarioBean.funcionario}">
-		<h:column>
-			<f:facet name="header">Nome</f:facet>
-			#{funcionario.nome}
-		</h:column>
-		<h:column>
-			<f:facet name="header">Salario</f:facet>
-			#{funcionario.salario}
-		</h:column>
-		<h:column>
-			<f:facet name="header">Data de admissao</f:facet>
-			#{funcionario.dataAdmissao}
-		</h:column>
-	</h:dataTable>
-	</div>
 </div>
 </body> 
 </html>
