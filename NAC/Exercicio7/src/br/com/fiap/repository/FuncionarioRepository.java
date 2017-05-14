@@ -1,0 +1,89 @@
+package br.com.fiap.repository;
+
+import java.util.Arrays;
+import java.util.List;
+
+import javax.ws.rs.core.MediaType;
+
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
+
+import br.com.fiap.exception.WebServiceException;
+import br.com.fiap.to.Funcionario;
+
+public class FuncionarioRepository {
+
+	Client client = new Client().create();
+	private static final String URL = "http://localhost:8080/Exercicio5/rest/funcionario/";
+	
+	public void cadastrar(Funcionario funcionario) throws WebServiceException{
+		WebResource resource = client.resource(URL);
+		
+		ClientResponse response = resource
+						.type(MediaType.APPLICATION_JSON)
+						.post(ClientResponse.class, funcionario);
+		
+		if (response.getStatus() != 201){
+			throw new WebServiceException("Http Status: " +
+						response.getStatus());
+		}
+	}
+	
+	public void atualizar(Funcionario funcionario) throws WebServiceException{
+		WebResource resource = 
+				client.resource(URL + funcionario.getCodigo());
+		
+		ClientResponse response = resource
+						.type(MediaType.APPLICATION_JSON)
+						.put(ClientResponse.class, funcionario);
+		
+		if (response.getStatus() != 200){
+			throw new WebServiceException("Http Status: " +
+						response.getStatus());
+		}
+	}
+	
+	public void remover(int codigo) throws WebServiceException{
+		WebResource resource = client.resource(URL + codigo);
+		
+		ClientResponse response = 
+				resource.delete(ClientResponse.class);
+		
+		if (response.getStatus() != 204){
+			throw new WebServiceException("Http Status: " +
+						response.getStatus());
+		}
+	}
+	
+	public Funcionario buscar(int codigo) throws WebServiceException{
+		WebResource resource = client.resource(URL + codigo);
+		
+		ClientResponse response = resource
+				.accept(MediaType.APPLICATION_JSON)
+				.get(ClientResponse.class);
+		
+		if (response.getStatus() != 200){
+			throw new WebServiceException("Http Status: " +
+						response.getStatus());
+		}
+		
+		return response.getEntity(Funcionario.class);
+	}
+	
+	public List<Funcionario> listar() throws WebServiceException{
+		WebResource resource = client.resource(URL);
+		
+		ClientResponse response = resource
+			.accept(MediaType.APPLICATION_JSON)
+			.get(ClientResponse.class);
+		
+		if (response.getStatus() != 200){
+			throw new WebServiceException("Http Status: " +
+						response.getStatus());
+		}
+		
+		Funcionario[] array = response.getEntity(Funcionario[].class);
+		return Arrays.asList(array);
+	}
+}

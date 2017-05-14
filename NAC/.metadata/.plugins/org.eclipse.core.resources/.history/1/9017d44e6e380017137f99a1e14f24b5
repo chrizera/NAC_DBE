@@ -1,0 +1,46 @@
+package br.com.fiap.bean;
+
+import java.rmi.RemoteException;
+
+import javax.annotation.PostConstruct;
+import javax.faces.application.FacesMessage;
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+
+import org.apache.axis2.AxisFault;
+
+import br.com.fiap.bo.FuncionarioBOStub;
+import br.com.fiap.bo.FuncionarioBOStub.Cadastrar;
+import br.com.fiap.bo.FuncionarioBOStub.Funcionario;
+
+@ManagedBean
+public class FuncionarioBean {
+
+	
+	private FuncionarioBOStub stub;
+	private Funcionario funcionario;
+	
+	@PostConstruct
+	public void init() {
+		funcionario = new Funcionario();
+		try {
+			stub = new FuncionarioBOStub();
+		} catch (AxisFault e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void cadastrar(){
+		FacesMessage msg;
+		try {
+			Cadastrar cadastrar = new Cadastrar();
+			cadastrar.setFuncionario(funcionario);
+			stub.cadastrar(cadastrar);
+			msg = new FacesMessage("Funcionario cadastrado com sucesso");
+		} catch (RemoteException e) {
+			e.printStackTrace();
+			msg = new FacesMessage("Erro ao efetuar cadastro");
+		}
+		FacesContext.getCurrentInstance().addMessage(null, msg);
+	}
+}

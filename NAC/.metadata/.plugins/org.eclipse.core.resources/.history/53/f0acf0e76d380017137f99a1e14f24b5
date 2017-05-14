@@ -1,0 +1,20 @@
+package br.com.fiap.bean;
+
+import javax.annotation.PostConstruct;
+import javax.faces.bean.ManagedBean;
+
+import br.com.fiap.bo.FuncionarioBOStub;
+import br.com.fiap.bo.FuncionarioBOStub.Funcionario;
+
+@ManagedBean
+public class FuncionarioBean {
+
+	
+	private FuncionarioBOStub stub;
+	private Funcionario funcionario;
+	
+	@PostConstruct
+	public void init() {
+		
+	}
+}

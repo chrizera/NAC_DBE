@@ -1,0 +1,61 @@
+package br.com.fiap.bean;
+
+import javax.annotation.PostConstruct;
+import javax.faces.application.FacesMessage;
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+
+import br.com.fiap.exception.WebServiceException;
+import br.com.fiap.repository.FuncionarioRepository;
+import br.com.fiap.to.Funcionario;
+
+@ManagedBean
+public class FuncionarioBean {
+
+	private Funcionario funcionario;
+	private FuncionarioRepository repository;
+	
+	@PostConstruct
+	public void init() {
+		funcionario = new Funcionario();
+		repository = new FuncionarioRepository();
+	}
+	
+	public void cadastrar(){
+		FacesMessage msg;
+		try {
+			repository.cadastrar(funcionario);
+			msg = new FacesMessage("Funcionario cadastrado com sucesso");
+		} catch (WebServiceException e) {
+			e.printStackTrace();
+			msg = new FacesMessage("Erro ao cadastrar funcionario");
+		}
+		FacesContext.getCurrentInstance().addMessage(null, msg);
+		FacesContext.getCurrentInstance().getExternalContext()
+		.getFlash().setKeepMessages(true);
+	}
+	
+	public Funcionario buscar(int codigo) {
+		FacesMessage msg;
+		try {
+			funcionario = repository.buscar(codigo);
+		} catch (WebServiceException e) {
+			e.printStackTrace();
+			msg = new FacesMessage("Erro ao efetuar busca");
+			FacesContext.getCurrentInstance().addMessage(null, msg);
+			return null;
+		}
+		FacesContext.getCurrentInstance().getExternalContext()
+		.getFlash().setKeepMessages(true);
+		return funcionario;
+	}
+
+	public Funcionario getFuncionario() {
+		return funcionario;
+	}
+
+	public void setFuncionario(Funcionario funcionario) {
+		this.funcionario = funcionario;
+	}
+
+}
