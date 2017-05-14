@@ -15,18 +15,19 @@
 <fullyQualifiedTypeName name="br.com.fiap.factory.EntityManagerFactorySingleton"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.FuncionarioDAO"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.impl.FuncionarioDAOImpl"/>
-<fullyQualifiedTypeName name="br.com.fiap.entity.Funcionario"/>
-<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.Cadastrar"/>
-<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.Funcionario"/>
 <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.Buscar"/>
-<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.BuscarResponse"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.Listar"/>
 <fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.ListarResponse"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.ListResourceBundle"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.Funcionario"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.Cadastrar"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.Buscar"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.FuncionarioBOStub.BuscarResponse"/>
+<fullyQualifiedTypeName name="com.sun.jersey.api.client.Client"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Funcionario"/>
 </qualifiedTypeNameHistroy>

@@ -29,14 +29,16 @@ public class FuncionarioBO {
 	
 	public Funcionario buscar(int codigo) {
 		FuncionarioDAO dao = new FuncionarioDAOImpl(em);
+		Funcionario funcionario = dao.pesquisar(codigo);
 		em.close();
-		return dao.pesquisar(codigo);
+		return funcionario;
 	}
 	
 	public List<Funcionario> listar() {
 		FuncionarioDAO dao = new FuncionarioDAOImpl(em);
+		List<Funcionario> funcionarios = dao.listar();
 		em.close();
-		return dao.listar();
+		return funcionarios;
 	}
 	
 	public void remover(int codigo) {
@@ -48,6 +50,7 @@ public class FuncionarioBO {
 		catch(Exception e) {
 			e.printStackTrace();
 		}
+		em.close();
 	}
 	
 	public void atualizar(Funcionario funcionario) {

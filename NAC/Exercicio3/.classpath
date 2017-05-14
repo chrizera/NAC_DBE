@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/eclipse/plugins/org.eclipse.osgi_3.11.3.v20170209-1843.jar" sourcepath="C:/Program Files (x86)/eclipse/plugins/org.eclipse.osgi_3.11.3.v20170209-1843.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/eclipse/plugins/org.eclipse.core.commands_3.8.1.v20161221-1651.jar" sourcepath="C:/Program Files (x86)/eclipse/plugins/org.eclipse.core.commands_3.8.1.v20161221-1651.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/eclipse/plugins/org.eclipse.equinox.common_3.8.0.v20160509-1230.jar" sourcepath="C:/Program Files (x86)/eclipse/plugins/org.eclipse.equinox.common_3.8.0.v20160509-1230.jar"/>
@@ -14,5 +23,11 @@
 	<classpathentry kind="lib" path="C:/Program Files (x86)/eclipse/plugins/org.eclipse.ui.workbench_3.108.3.v20170216-1539.jar" sourcepath="C:/Program Files (x86)/eclipse/plugins/org.eclipse.ui.workbench_3.108.3.v20170216-1539.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/eclipse/plugins/com.ibm.icu_56.1.0.v201601250100.jar" sourcepath="C:/Program Files (x86)/eclipse/plugins/com.ibm.icu_56.1.0.v201601250100.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/eclipse/plugins/org.eclipse.ui.forms_3.7.1.v20161220-1635.jar" sourcepath="C:/Program Files (x86)/eclipse/plugins/org.eclipse.ui.forms_3.7.1.v20161220-1635.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="lib" path="lib/axis2-kernel-1.402.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>

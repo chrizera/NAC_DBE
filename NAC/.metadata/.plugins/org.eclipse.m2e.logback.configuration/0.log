@@ -1035,3 +1035,139 @@
 2017-05-07 22:45:51,513 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio6\src\main\resources
 2017-05-07 22:45:51,515 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-05-07 22:45:51,517 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio6\src\test\resources
+2017-05-13 19:22:57,805 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:22:57,812 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio5\src\main\resources
+2017-05-13 19:22:57,815 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:22:57,816 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio5\src\test\resources
+2017-05-13 19:47:20,039 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Exercicio3:Exercicio3:0.0.1-SNAPSHOT @ C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\pom.xml.
+2017-05-13 19:47:21,186 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Exercicio3/src
+2017-05-13 19:47:21,189 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Exercicio3/src/test/java because it overlaps with /Exercicio3/src
+2017-05-13 19:47:21,561 [Worker-19] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-13 19:47:22,366 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Exercicio3:Exercicio3:0.0.1-SNAPSHOT @ C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\pom.xml.
+2017-05-13 19:47:22,742 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Exercicio3/src
+2017-05-13 19:47:22,747 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Exercicio3/src/test/java because it overlaps with /Exercicio3/src
+2017-05-13 19:47:23,263 [Worker-19] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-05-13 19:47:24,296 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:47:24,299 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 19:47:24,302 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:47:24,303 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 19:47:29,829 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Exercicio3:Exercicio3:0.0.1-SNAPSHOT @ C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\pom.xml.
+2017-05-13 19:47:29,894 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:47:29,896 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 19:47:29,897 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:47:29,898 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 19:48:02,689 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Exercicio3:Exercicio3:0.0.1-SNAPSHOT @ C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\pom.xml.
+2017-05-13 19:48:02,756 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:48:02,757 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 19:48:02,759 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:48:02,760 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 19:48:37,957 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Exercicio3:Exercicio3:0.0.1-SNAPSHOT @ C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\pom.xml.
+2017-05-13 19:48:39,375 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/axis2/axis2-kernel/1.402/axis2-kernel-1.402.pom
+2017-05-13 19:48:39,375 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/axis2/axis2-kernel/1.402/axis2-kernel-1.402.pom
+2017-05-13 19:48:39,382 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.axis2:axis2-kernel:jar:1.402 is missing, no dependency information available
+2017-05-13 19:48:39,382 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.axis2:axis2-kernel:jar:1.402 is missing, no dependency information available
+2017-05-13 19:48:39,989 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/axis2/axis2-kernel/1.402/axis2-kernel-1.402.jar
+2017-05-13 19:48:39,989 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/axis2/axis2-kernel/1.402/axis2-kernel-1.402.jar
+2017-05-13 19:48:40,078 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:48:40,079 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 19:48:40,081 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:48:40,084 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 19:50:01,187 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.axis2:axis2-kernel:jar:1.402 is missing, no dependency information available
+2017-05-13 19:50:01,209 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:50:01,211 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 19:50:01,213 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:50:01,216 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 19:50:11,086 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:50:11,088 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 19:50:11,090 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:50:11,102 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 19:50:16,570 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:50:16,571 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 19:50:16,576 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:50:16,577 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 19:50:31,790 [Worker-25] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-13 19:50:32,236 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Exercicio3:Exercicio3:0.0.1-SNAPSHOT @ C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\pom.xml.
+2017-05-13 19:50:32,238 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.axis2:axis2-kernel:jar:1.402 is missing, no dependency information available
+2017-05-13 19:50:32,366 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Exercicio3/src
+2017-05-13 19:50:32,367 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Exercicio3/src/test/java because it overlaps with /Exercicio3/src
+2017-05-13 19:50:32,611 [Worker-25] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-05-13 19:50:32,758 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.axis2:axis2-kernel:jar:1.402 is missing, no dependency information available
+2017-05-13 19:50:32,764 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:50:32,766 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 19:50:32,767 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:50:32,768 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 19:52:27,656 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:52:27,657 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 19:52:27,663 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:52:27,668 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 19:59:43,693 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:59:43,695 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 19:59:43,699 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 19:59:43,700 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 20:01:35,894 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:01:35,896 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 20:01:35,900 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:01:35,902 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 20:01:43,448 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:01:43,449 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 20:01:43,451 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:01:43,454 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 20:07:48,821 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:07:48,825 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 20:07:48,828 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:07:48,830 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 20:14:48,339 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:14:48,343 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 20:14:48,346 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:14:48,348 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 20:20:55,829 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:20:55,836 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 20:20:55,846 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:20:55,849 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 20:27:54,965 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:27:54,970 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 20:27:54,973 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:27:54,975 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 20:33:59,500 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Exercicio3:Exercicio3:0.0.1-SNAPSHOT @ C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\pom.xml.
+2017-05-13 20:33:59,688 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:33:59,691 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 20:33:59,693 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:33:59,695 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 20:34:02,757 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:34:02,759 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 20:34:02,762 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:34:02,763 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 20:34:07,328 [Worker-40] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Exercicio3:Exercicio3:0.0.1-SNAPSHOT @ C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\pom.xml.
+2017-05-13 20:34:07,334 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.axis2:axis2-kernel:jar:1.402 is missing, no dependency information available
+2017-05-13 20:34:07,445 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:34:07,447 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\main\resources
+2017-05-13 20:34:07,454 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 20:34:07,456 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio3\src\test\resources
+2017-05-13 21:15:48,132 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:15:48,132 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio6\src\main\resources
+2017-05-13 21:15:48,132 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:15:48,132 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio6\src\test\resources
+2017-05-13 21:19:22,008 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:19:22,023 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio6\src\main\resources
+2017-05-13 21:19:22,023 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:19:22,023 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio6\src\test\resources
+2017-05-13 21:23:36,067 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:23:36,067 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio5\src\main\resources
+2017-05-13 21:23:36,083 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:23:36,083 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio5\src\test\resources
+2017-05-13 21:25:38,885 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:25:38,885 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio5\src\main\resources
+2017-05-13 21:25:38,885 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:25:38,885 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio5\src\test\resources
+2017-05-13 21:45:43,831 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:45:43,831 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio5\src\main\resources
+2017-05-13 21:45:43,831 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:45:43,831 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio5\src\test\resources
+2017-05-13 21:46:10,895 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:46:10,910 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio5\src\main\resources
+2017-05-13 21:46:10,910 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:46:10,910 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio5\src\test\resources
+2017-05-13 21:46:24,636 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:46:24,636 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio5\src\main\resources
+2017-05-13 21:46:24,651 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-13 21:46:24,651 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\Desktop\NAC_DBE\NAC\Exercicio5\src\test\resources

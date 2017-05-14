@@ -2,6 +2,7 @@ package br.com.fiap.view;
 
 import java.util.Calendar;
 
+import org.apache.axis2.AxisFault;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
@@ -12,6 +13,12 @@ import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Text;
 
 import com.ibm.icu.text.SimpleDateFormat;
+
+import br.com.fiap.bo.FuncionarioBOStub;
+import br.com.fiap.bo.FuncionarioBOStub.Buscar;
+import br.com.fiap.bo.FuncionarioBOStub.BuscarResponse;
+import br.com.fiap.bo.FuncionarioBOStub.Cadastrar;
+import br.com.fiap.bo.FuncionarioBOStub.Funcionario;
 
 public class Tela {
 
@@ -88,6 +95,15 @@ public class Tela {
 				SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 				try {
 				dataAdmissao.setTime(sdf.parse(txtDataDeAdmissao.getText()));
+				FuncionarioBOStub stub = new FuncionarioBOStub();
+				Funcionario funcionario = new Funcionario();
+				funcionario.setNome(nome);
+				funcionario.setSalario(salario);
+				funcionario.setDataAdmissao(dataAdmissao);
+				Cadastrar cadastrar = new Cadastrar();
+				cadastrar.setFuncionario(funcionario);
+				stub.cadastrar(cadastrar);
+				System.out.println("cadastrado efetuado");
 				}
 				catch(Exception ee){
 					ee.printStackTrace();
@@ -109,6 +125,20 @@ public class Tela {
 		btnBuscar.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
+				Buscar buscar = new Buscar();
+				buscar.setCodigo(Integer.parseInt(txtCodigo.getText()));
+				try {
+					FuncionarioBOStub stub = new FuncionarioBOStub();
+					BuscarResponse response = stub.buscar(buscar);
+					Funcionario funcionarioBuscado = response.get_return();
+					txtDataDeAdmissao.setText(funcionarioBuscado.getDataAdmissao().toString());
+					txtNome.setText(funcionarioBuscado.getNome());
+					txtSalario.setText(String.valueOf(funcionarioBuscado.getSalario()));
+				} catch (Exception e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				
 			}
 		});
 		btnBuscar.setBounds(275, 75, 75, 25);
