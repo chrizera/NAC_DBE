@@ -1,0 +1,29 @@
+package br.com.fiap.repository;
+
+import javax.ws.rs.core.MediaType;
+
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
+
+import br.com.fiap.exception.WebServiceException;
+import br.com.fiap.to.Funcionario;
+
+public class FuncionarioRepository {
+
+	Client client = new Client().create();
+	private static final String URL = "http://localhost:8080/Exercicio5/rest/funcionario/";
+	
+	public void cadastrar(Funcionario funcionario) throws WebServiceException{
+		WebResource resource = client.resource(URL);
+		
+		ClientResponse response = resource
+						.type(MediaType.APPLICATION_JSON)
+						.post(ClientResponse.class, funcionario);
+		
+		if (response.getStatus() != 201){
+			throw new WebServiceException("Http Status: " +
+						response.getStatus());
+		}
+	}
+}

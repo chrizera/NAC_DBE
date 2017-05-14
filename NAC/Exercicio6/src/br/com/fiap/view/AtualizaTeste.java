@@ -1,18 +1,20 @@
 package br.com.fiap.view;
 
 import br.com.fiap.exception.WebServiceException;
-import br.com.fiap.repository.AtletaRepository;
-import br.com.fiap.to.Atleta;
+import br.com.fiap.repository.FuncionarioRepository;
+import br.com.fiap.to.Funcionario;
 
 public class AtualizaTeste {
 
 	public static void main(String[] args) {
-		AtletaRepository rep = new AtletaRepository();
+		FuncionarioRepository repository = new FuncionarioRepository();
 		
 		try {
-			Atleta atleta = rep.buscar(5);
-			atleta.setNome("Maria");
-			rep.atualizar(atleta);
+			Funcionario funcionario = repository.buscar(2);
+			System.out.println(funcionario.getNome());
+			funcionario.setNome("Maria");
+			repository.atualizar(funcionario);
+			System.out.println("Atualizado - " + funcionario.getNome());
 		} catch (WebServiceException e) {
 			e.printStackTrace();
 		}

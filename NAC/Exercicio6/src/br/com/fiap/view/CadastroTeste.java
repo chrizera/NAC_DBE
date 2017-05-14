@@ -1,21 +1,22 @@
 package br.com.fiap.view;
 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
 import br.com.fiap.exception.WebServiceException;
-import br.com.fiap.repository.AtletaRepository;
-import br.com.fiap.to.Atleta;
+import br.com.fiap.repository.FuncionarioRepository;
+import br.com.fiap.to.Funcionario;
 
 public class CadastroTeste {
 
 	public static void main(String[] args) {
-		AtletaRepository rep = new AtletaRepository();
+		FuncionarioRepository repository = new FuncionarioRepository();
 
-		Atleta atleta = new Atleta();
-		atleta.setNome("Rita");
-		atleta.setModalidade("Corrida");
-		atleta.setRanking(1);
+		Funcionario funcionario = new Funcionario("Christian", 666, new GregorianCalendar(2017, Calendar.MAY, 2));		
 		
 		try {
-			rep.cadastrar(atleta);
+			repository.cadastrar(funcionario);
+			System.out.println("Cadastro efetuado");
 		} catch (WebServiceException e) {
 			e.printStackTrace();
 		}

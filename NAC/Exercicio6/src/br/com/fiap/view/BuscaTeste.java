@@ -3,24 +3,24 @@ package br.com.fiap.view;
 import java.util.List;
 
 import br.com.fiap.exception.WebServiceException;
-import br.com.fiap.repository.AtletaRepository;
-import br.com.fiap.to.Atleta;
+import br.com.fiap.repository.FuncionarioRepository;
+import br.com.fiap.to.Funcionario;
 
 public class BuscaTeste {
 
 	public static void main(String[] args) {
-		AtletaRepository rep = new AtletaRepository();
+		FuncionarioRepository repository = new FuncionarioRepository();
 		
 		try {
 			System.out.println("Listagem");
-			List<Atleta> listar = rep.listar();
-			for (Atleta atleta : listar) {
-				System.out.println(atleta.getNome());
+			List<Funcionario> funcionarios = repository.listar();
+			for (Funcionario funcionario : funcionarios) {
+				System.out.println(funcionario.getNome());
 			}
 			
 			System.out.println("Busca por código");
-			Atleta atleta = rep.buscar(5);
-			System.out.println(atleta.getNome());
+			Funcionario funcionario = repository.buscar(2);
+			System.out.println(funcionario.getNome());
 			
 		} catch (WebServiceException e) {
 			e.printStackTrace();
